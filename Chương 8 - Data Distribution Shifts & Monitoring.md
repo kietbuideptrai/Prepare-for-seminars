@@ -23,9 +23,10 @@ trang: "225–262"
 > **Deploy không phải là đích.** Model sẽ giảm hiệu năng trong production vì dữ liệu production khác dữ liệu train và thế giới liên tục thay đổi. Phải **monitor** để phát hiện, **chẩn đoán** đúng nguyên nhân, rồi **retrain hoặc thiết kế lại hệ thống** để thích nghi.
 
 > [!tip] Thuyết trình
-> Kế hoạch chia task 4 người, kịch bản 22 slide và ngân hàng câu hỏi Q&A: [[Kế hoạch thuyết trình Chương 8 - Chia task 4 người]].
+> Kế hoạch chia task 4 người, kịch bản 22 slide và ngân hàng câu hỏi Q&A: [[Chương 8 - Kế hoạch thuyết trình]].
+> Hướng dẫn tạo slide + notebook demo: [README.md](<README.md>).
 
-![[Ch8 - Data Distribution Shifts.excalidraw]]
+![[Chương 8 - Sơ đồ tư duy.excalidraw]]
 
 *Sơ đồ tư duy: từ nguyên nhân hỏng → các loại shift → phát hiện → ứng phó → giám sát.*
 
@@ -1111,3 +1112,14 @@ Giám sát
 
 > [!success] Chốt lại
 > **Deploy là bắt đầu, không phải kết thúc.** Hãy giả định model sẽ hỏng, dữ liệu sẽ đổi, và người dùng sẽ phản hồi theo cách làm lệch chính model. Xây **monitoring + observability** đủ tốt để phát hiện sớm, phân biệt **lỗi pipeline** với **shift thật**, rồi **retrain có kỷ luật** — đó là nội dung cốt lõi của chương này và là nền cho **continual learning** ở Chương 9.
+
+%% links:auto %%
+---
+
+## Xem thêm
+
+- [[Chương 8 - Dàn ý 22 slide|Dàn ý slide thuyết trình]] — 22 slide cho chương 8
+- [README.md](<README.md>) — Hướng dẫn tạo slide từng bước
+- [notebooks/00_Index.ipynb](<notebooks/00_Index.ipynb>) — Notebook demo (Jupyter/VS Code)
+- [[Nền tản cần biết|Nền tảng cần biết]] — Kiến thức nền ML
+- [[MOC - Khai phá dữ liệu & Học máy]] — Bản đồ chủ đề

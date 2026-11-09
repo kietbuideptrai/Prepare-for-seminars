@@ -5,7 +5,7 @@ tags:
   - slide
   - ml-system
   - data-distribution-shift
-nguồn: "[[Kế hoạch thuyết trình Chương 8 - Chia task 4 người]]"
+nguồn: "[[Chương 8 - Kế hoạch thuyết trình]]"
 ---
 
 # Dàn ý slide thuyết trình Chương 8 — 22 slide
@@ -13,10 +13,17 @@ nguồn: "[[Kế hoạch thuyết trình Chương 8 - Chia task 4 người]]"
 > [!info] Cách dùng
 > Mỗi mục dưới đây là **một slide**. Copy **Tiêu đề** và **Bullet** vào PowerPoint/Google Slides; phần **Visual** là gợi ý hình/bảng; phần **Lời dẫn** để tập nói, không cần đọc nguyên văn.
 > Khi lên slide thật, cắt bullet còn **5–8 từ khóa** — outline này giữ nội dung đầy đủ để người nói hiểu.
+> Hướng dẫn tạo slide từng bước (template, hình, code, PDF): [README.md](<README.md>).
 
 > [!note] Phân bổ
 > **Người 1:** slide 1–5 (6 phút) · **Người 2:** slide 6–8 (7 phút) · **Người 3:** slide 9–15 (9 phút) · **Người 4:** slide 16–22 (8 phút).
 > Tổng: **30 phút + 5 phút Q&A**.
+
+> [!tip] Code demo & notebook
+> Bộ code chạy được + hình xuất sẵn cho từng slide: [[code-demo/README|Code demo Chương 8]].
+> Notebook từng demo (mở bằng Jupyter/VS Code): `notebooks/00_Index.ipynb`.
+> Snippet ngắn để dán lên slide: [[code-demo/SLIDE_CODE|Snippet code cho slide]].
+> Hướng dẫn tạo slide đầy đủ: [README.md](<README.md>).
 
 ---
 
@@ -427,3 +434,13 @@ nguồn: "[[Kế hoạch thuyết trình Chương 8 - Chia task 4 người]]"
 
 > [!success] Mẹo lên slide
 > Nếu một bullet không thể đọc trong **3 giây**, nó quá dài. Hãy giữ từ khoá trên slide và nói phần giải thích — đừng biến slide thành tài liệu đọc.
+
+%% links:auto %%
+---
+
+## Xem thêm
+
+- [[Chương 8 - Data Distribution Shifts & Monitoring|Chương 8 — Data Distribution Shifts & Monitoring]] — Nội dung gốc
+- [README.md](<README.md>) — Hướng dẫn tạo slide từng bước
+- [notebooks/00_Index.ipynb](<notebooks/00_Index.ipynb>) — Notebook demo (Jupyter/VS Code)
+- [[MOC - Khai phá dữ liệu & Học máy]] — Bản đồ chủ đề

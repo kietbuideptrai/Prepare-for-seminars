@@ -5,7 +5,7 @@ tags:
   - ml-system
   - ke-hoach
   - data-distribution-shift
-nguồn: "[[Chương 8 - Data Distribution Shifts và Monitoring]]"
+nguồn: "[[Chương 8 - Data Distribution Shifts & Monitoring]]"
 thời-lượng: "30 phút + 5 phút Q&A"
 ---
 
@@ -14,13 +14,19 @@ thời-lượng: "30 phút + 5 phút Q&A"
 > [!info] Tóm tắt
 > **4 người — 22 slide — 30 phút thuyết trình + 5 phút Q&A.**
 > Mỗi người phụ trách một “chương con” có mở đầu và kết thúc rõ ràng, bàn giao bằng một câu chuyển ý để cả bài liền mạch.
-> Sơ đồ tổng thể: [[Ch8 - Data Distribution Shifts.excalidraw|Sơ đồ tư duy Chương 8]].
+> Sơ đồ tổng thể: [[Chương 8 - Sơ đồ tư duy.excalidraw|Sơ đồ tư duy Chương 8]].
 
 > [!important] Thông điệp xuyên suốt
 > **Deploy không phải là đích.** Model sẽ giảm hiệu năng vì dữ liệu production khác dữ liệu train, vì edge cases, và vì chính dự đoán của model tạo ra vòng lặp phản hồi. Muốn giữ model hoạt động phải **monitor → hiểu → retrain**.
 
 > [!tip] Dàn ý slide chi tiết
-> Tiêu đề + bullet + visual + lời dẫn cho từng slide: [[Dàn ý slide thuyết trình Chương 8 - 22 slide]].
+> Tiêu đề + bullet + visual + lời dẫn cho từng slide: [[Chương 8 - Dàn ý 22 slide]].
+
+> [!tip] Code demo & notebook
+> Bộ code chạy được + hình xuất sẵn: [[code-demo/README|Code demo Chương 8]].
+> Notebook từng demo (mở bằng Jupyter/VS Code): `notebooks/00_Index.ipynb`.
+> Snippet ngắn để dán lên slide: [[code-demo/SLIDE_CODE|Snippet code cho slide]].
+> Hướng dẫn tạo slide đầy đủ: [README.md](<README.md>).
 
 ---
 
@@ -492,3 +498,9 @@ ${timestamp}: This alert originated from ${service-name}
 > [!success] Chốt kế hoạch
 > **Người 1 mở câu chuyện — Người 2 chỉ ra hai cái bẫy — Người 3 vẽ bản đồ shift — Người 4 cứu model và giám sát.**
 > Cả nhóm thống nhất một câu xuyên suốt: *“Deploy là bắt đầu; monitor để biết, observability để hiểu, retrain để thích nghi.”*
+
+%% links:auto %%
+
+## Xem thêm
+
+- [[MOC - Khai phá dữ liệu & Học máy]] — Bản đồ chủ đề
