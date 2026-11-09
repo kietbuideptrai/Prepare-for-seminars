@@ -22,7 +22,7 @@
 ```text
 30 Projects/ML - Seminar/
 ├── README.md                                  ← file này: hướng dẫn tạo slide
-├── chapter8.pdf                               ← nguồn gốc (Chip Huyen, Ch. 8)
+├── chapter8.pdf                               ← nguồn gốc, chỉ để local (không push GitHub)
 │
 ├── Chương 8 - Data Distribution Shifts & Monitoring.md
 │       └── Ghi chú kiến thức đầy đủ — tra cứu khi cần giải thích sâu
@@ -528,7 +528,7 @@ NopBai_Chuong8/
 
 ### Nguồn
 
-- [chapter8.pdf](<./chapter8.pdf>) — Chapter 8, *Designing Machine Learning Systems* (Chip Huyen, O'Reilly), tr. 225–262.
+- `chapter8.pdf` — Chapter 8, *Designing Machine Learning Systems* (Chip Huyen, O'Reilly), tr. 225–262. **File này chỉ lưu local**, không đưa lên GitHub (bản quyền + kích thước). Ai cần thì xin bản PDF qua nhóm.
 
 ---
 
